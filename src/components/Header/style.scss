@@ -1,0 +1,10 @@
+.header {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}
