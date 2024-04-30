@@ -1,0 +1,20 @@
+$border-color: rgba(
+  $color: #000000,
+  $alpha: 0.4
+);
+
+.number-item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-right: 12px;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(0.8);
+  }
+}

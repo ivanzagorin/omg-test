@@ -14,7 +14,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue3-observe-visibility": "^1.0.1"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
