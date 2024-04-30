@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  padding: 20px;
+  &-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+.fade-up-enter-active,
+.fade-up-leave-active {
+  transition: all 0.5s ease;
+}
+.fade-up-enter-from,
+.fade-up-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
