@@ -1,5 +1,5 @@
 <template>
-  <ul v-if="itemsToShow" class="list">
+  <ul class="list">
     <transition-group name="fade-up">
       <div
         v-for="item in itemsToShow"
