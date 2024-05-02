@@ -43,8 +43,7 @@ const setRandomNumber = () => {
   setInterval(() => {
     const visibleElements = elements.value.filter((element) => element.isVisible)
     if (!visibleElements.length) return
-    const randomIndex = Math.floor(Math.random() * visibleElements.length)
-    visibleElements[randomIndex].number = getRandomNumber()
+    visibleElements.forEach(element => element.number = getRandomNumber());
   }, 1000)
 }
 </script>
